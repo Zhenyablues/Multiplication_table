@@ -1,0 +1,102 @@
+* {
+  font-size: 42px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+
+body {
+  background-color: rgb(154, 170, 185);
+}
+
+h2 {
+  color: #124c60;
+  margin-left: 25px;
+}
+
+.buttonBloc > button {
+  width: 75px;
+  height: 75px;
+  margin: 7px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.button0 {
+  background-color: #124c60;
+  color: #6d99a2;
+  border: 3px solid #6d99a2;
+}
+.button1 {
+  background-color: #fe8787;
+  color: #124c60;
+  border: 3px solid #124c60;
+}
+.button2 {
+  background-color: #fab340;
+  color: #02808f;
+  border: 3px solid #02808f;
+}
+.button3 {
+  background-color: #6d99a2;
+  color: #fab340;
+  border: 3px solid #fab340;
+}
+.button4 {
+  background-color: #02808f;
+  color: #fe8787;
+  border: 3px solid #fe8787;
+}
+.button5 {
+  background-color: #124c60;
+  color: #6d99a2;
+  border: 3px solid #6d99a2;
+}
+.button6 {
+  background-color: #02808f;
+  color: #fe8787;
+  border: 3px solid #fe8787;
+}
+.button7 {
+  background-color: #6d99a2;
+  color: #fab340;
+  border: 3px solid #fab340;
+}
+.button8 {
+  background-color: #fab340;
+  color: #02808f;
+  border: 3px solid #02808f;
+}
+.button9 {
+  background-color: #fe8787;
+  color: #124c60;
+  border: 3px solid #124c60;
+}
+
+.randomClassButton {
+  width: 170px;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 35px;
+  border-radius: 10px;
+  background-color: #02808f;
+  color: #fe8787;
+  border: 3px solid #fe8787;
+}
+
+form {
+  padding-left: 15px;
+}
+
+.inputText {
+  width: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fab340;
+  color: #02808f;
+  border: 3px solid #02808f;
+}
+.inputSubmit {
+  border-radius: 10px;
+  background-color: #fe8787;
+  color: #124c60;
+  border: 3px solid #124c60;
+}
