@@ -9,6 +9,7 @@ let randomNumebr = () => Math.floor(Math.random() * 10);
 
 buttons.forEach((button) => {
   button.onclick = function () {
+    document.querySelector("#answer").value = "";
     let a, b, c;
     if (button.id === randomButton.id) {
       a = randomNumebr();
@@ -16,7 +17,7 @@ buttons.forEach((button) => {
       a = Number(button.id);
     }
     b = randomNumebr();
-    question.innerHTML = `${a} * ${b}`;
+    question.innerHTML = `Question: ${a} * ${b} = ?`;
     c = a * b;
     mult(c);
   };
